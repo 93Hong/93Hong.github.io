@@ -2,7 +2,7 @@
 layout: post
 title:  "개발 블로그의 첫 게시글"
 date:   2018-01-15
-comment: true
+comments: true
 ---
 
 <p class="intro"><span class="dropcap">자</span>신의 삶에서 일어나는 좋은 일들을 깨닫지 못하는 사람에게는 하루하루가 매일 해가 뜨고 지는 것처럼 똑같을 수밖에 없다. -연금술사</p>

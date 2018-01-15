@@ -10,6 +10,7 @@ markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
+disqus: "93hong"
 
 navigation:
  - title: Home

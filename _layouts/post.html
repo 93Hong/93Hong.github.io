@@ -14,6 +14,7 @@ layout: default
 
 
 <!---->
+{% if page.comments %}
   <div id="disqus_thread"></div>
   <script>
       /**
@@ -38,7 +39,7 @@ layout: default
           var d = document, s = d.createElement('script');
 
           // IMPORTANT: Replace EXAMPLE with your forum shortname!
-          s.src = 'https://EXAMPLE.disqus.com/embed.js';
+          s.src = 'https://93hong.disqus.com/embed.js';
 
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
@@ -50,6 +51,7 @@ layout: default
           comments powered by Disqus.
       </a>
   </noscript>
+  {% endif %}
 <!---->
 
   <!-- POST NAVIGATION -->

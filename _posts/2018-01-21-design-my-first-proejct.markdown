@@ -16,24 +16,24 @@ description: "설계에 대한 고민은 항상 하기 마련이예요. 좋은 �
 구글링을 통해 여러 좋은 자료를 찾아보며 일반적인 스프링 계층을 살펴보았다.
 
 
-## Presentation Layer
+### Presentation Layer
 	View : jsp, html, js etc..
 	비지니스 로직이나 퍼시스턴트 계층에서 처리하는 일을 직접 수행하거나
 	각 계층의 컴포넌트와 직접적인 통신이 있어서는 안됨
 
-## Control Layer
+### Control Layer
 	Presentation Layer와 비지니스 로직을 분리 (다리 역할)
 	어떤 요청이 들어왔을 때 어떤 로직이 처리되야 하는지 결정
 	UI 검증, 요청 및 응답 전달, 로직에서 던져진 예외 처리, 도메인 모델과 뷰 연결만 수행
 
-## Busniess Logic Layer
+### Busniess Logic Layer
 	핵심 업무 로직의 구현과 관련 데이터의 적합성 검증 등
 	DB 트랜젝션 처리, 다른 계층가 통신을 위한 인터페이스 제공
 
-## Persistence Layer
+### Persistence Layer
 	데이터의 처리를 담당 (CRUD 연산), Query 문 관리
 
-## Domain Model Layer
+### Domain Model Layer
     DAO...
 
 위와 같은 계층 구조를 보며 간단히 패키지를 나누는 작업부터 시작했다.

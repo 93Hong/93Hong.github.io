@@ -3,6 +3,7 @@ layout: post
 title:  "첫 스프링 프로젝트.. 어떻게 설계할까?"
 date:   2018-01-21
 description: "설계에 대한 고민은 항상 하기 마련이예요. 좋은 설계를 위해 꾸준히 고민하고 리팩터링 한다는게 좋은 것 같아요."
+comments: true
 ---
 
 <p class="intro"><span class="dropcap">설</span>계에 대한 고민은 항상 하기 마련이예요. 좋은 설계를 위해 꾸준히 고민하고 리팩터링 한다는게 좋은 것 같아요.</p>
@@ -53,4 +54,3 @@ Domain에는 DAO처럼 DB Table 객체를 넣고, Repository에는 Mapper를, Co
 [웹 애플리케이션의 계층](http://egloos.zum.com/mt1716/v/9291203)
 
 [첫 Java 프로젝트의 생생한 후기](http://woowabros.github.io/experience/2016/08/02/first_java_project.html)
-

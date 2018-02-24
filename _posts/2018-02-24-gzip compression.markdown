@@ -87,7 +87,7 @@ httpd.conf 파일을 vi로 열고 아래 내용들이 주석 처리가 되어있
         BrowserMatch \bMSIE !no-gzip !gzip-only-text/html  # 자신을 Mozilla로 알리는 MSIE에는 그대로 압축해서 보냄
 ```
 
-DEFLATE는 zip, gzip에서 사용되는 무솔실 압축 데이터 포맷이자 알고리즘입니다.
+DEFLATE는 zip, gzip에서 사용되는 무손실 압축 데이터 포맷이자 알고리즘입니다.
 DeflateCompressionLevel는 압축 단계로 1~9 사이의 값을 지정할 수 있습니다.
 물론 높을수록 더 많이 압축하지만 CPU에 부담을 줍니다.
 

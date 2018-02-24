@@ -6,12 +6,12 @@ date:   2018-02-24
 
 <p class="intro"><span class="dropcap">C</span>ompression is a simple, effective way to save bandwidth and speed up your site.</p>
 
-# gzip 압축이란?
+## gzip 압축이란?
 
 gzip 압축은 웹서비스 최적화 방법 중 하나입니다.
 파일 압축에 쓰이는 gzip을 사용하여 서버에서 클라이언트로 보내는 데이터를 줄이는 방법입니다.
 
-# 배경
+## 배경
 
 <figure>
 	<img src="{{ '/assets/img/2018-02-24-gzip compression/HTTP req res.PNG' }}" alt="">
@@ -29,7 +29,7 @@ gzip 압축은 웹서비스 최적화 방법 중 하나입니다.
 
 100KB의 데이터를 압축하여 10KB로 전송한다면, 네트워크 bandwith와 다운로드 시간 등을 줄여 페이지 로딩 속도를 향상시킬 수 있습니다.
 
-# gzip 압축 적용하기
+## gzip 압축 적용하기
 
 gzip 압축을 적용하려면 브라우저와 서버 모두 gzip을 지원해야 합니다.
 
@@ -103,7 +103,7 @@ httpd.conf 파일을 수정한 후 아파치를 재시작하면 끝입니다.
 </figure>
 다시 웹페이지로 돌아가 서버의 response header를 살펴보면 gzip을 지원하는 모습을 볼 수 있습니다.
 
-# 결과
+## 결과
 
 gzip 압축을 적용하기 전후를 비교해보겠습니다.
 <figure>
@@ -121,7 +121,7 @@ gzip 압축 전후를 비교하면,
 276KB - Load 2.40s <=> 159KB - Load 1.03s로
 117KB와 1.37s의 로딩 시간 감소를 확인할 수 있습니다.
 
-# 은총알은 없다
+## 은총알은 없다
 
 하지만 gzip 압축이 무조건 좋은 것은 아닙니다.
 gzip의 경우 서버에서 파일을 압축하는 시간과 브라우저에서 파일을 압축 해제하는 시간이 필요합니다.
@@ -142,7 +142,7 @@ gzip 압축을 해제할 때 서버와 브라우저에 약간의 CPU가 쓰이�
 
 처럼 포함시키면 서버에서 압축하는 과정을 줄일 수 있습니다.
 
-# 참조
+## 참조
 
 [Apache Module mod_deflate](https://httpd.apache.org/docs/2.4/en/mod/mod_deflate.html)
 [How To Optimize Your Site With GZIP Compression](https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/)

@@ -2,6 +2,7 @@
 layout: post
 title:  "Gzip Compression"
 date:   2018-02-24
+comments: true
 ---
 
 <p class="intro"><span class="dropcap">C</span>ompression is a simple, effective way to save bandwidth and speed up your site.</p>
